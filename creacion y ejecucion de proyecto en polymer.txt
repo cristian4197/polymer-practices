@@ -1,0 +1,15 @@
+*Usar nvm y seleccionar la versión 16.15.1, o 14.15.0 para node(es compatible con polymer3)
+* Instalar globalmente Polymer
+	npm install -g polymer-cli
+*Ejecutar polymer init y
+*Seleccionar tipo de proyecto:
+  1) polymer-3-element - A simple Polymer 3.0 element template
+  2) polymer-3-application - A simple Polymer 3.0 application
+  3) polymer-3-starter-kit - A Polymer 3.x starter application template, with navigation and "PRPL pattern" loading
+  4) polymer-2-element - A simple Polymer 2.0 element template
+  5) polymer-2-application - A simple Polymer 2.0 application
+  6) polymer-2-starter-kit - A Polymer 2.x starter application template, with navigation and "PRPL pattern" loading
+  7) shop - The "Shop" Progressive Web App demo
+*En mi caso seleccione la opción2
+*Se instalaran las dependencias
+*polymer serve --para ejecutar el proyecto
