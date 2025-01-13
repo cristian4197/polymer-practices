@@ -57,10 +57,10 @@ class ToolbarComponent extends PolymerElement {
       </style>
 
       <header>
-        <nav>
-          <ul>
+        <nav aria-label="Menú de navegación">
+          <ul role="menu">
             <template is="dom-repeat" items="[[menuOptions]]">
-              <li>[[item]]</li>  <!-- Usando [[item]] para el binding correcto -->
+              <li role="menuitem" tabindex="0" aria-label="Opción de menú: [[item]]">[[item]]</li>  <!-- Usando [[item]] para el binding correcto -->
             </template>
           </ul>
         </nav>

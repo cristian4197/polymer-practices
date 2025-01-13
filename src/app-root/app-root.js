@@ -14,9 +14,11 @@ class AppRoot extends PolymerElement {
       
       <!-- Pasando la propiedad menuOptions a toolbar-app -->
       <toolbar-app menu-options="[[menuOptions]]"></toolbar-app>
-
+      <main>
       <!--Login-->
       <login-app></login-app>
+      </main>
+      
     `;
   }
 

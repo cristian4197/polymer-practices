@@ -17,7 +17,7 @@ class LoginComponent extends PolymerElement {
       </style>
       <div id="login" class="login">
           <div>
-            <h2>Login de Inicio de Sesión</h2>
+            <h2 aria-hidden="true">Inicio de Sesión</h2>
           </div>
           <login-form-app></login-form-app>
         <div>

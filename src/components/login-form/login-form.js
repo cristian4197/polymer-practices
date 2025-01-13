@@ -69,8 +69,8 @@ class LoginFormComponent extends PolymerElement {
           <label for="password">Contraseña:</label>
           <input id="password" type="password" required>
         </div>
-        <button type="submit">Iniciar sesión</button>
-        <div class="error-message"></div>
+        <button type="submit" aria-label="Iniciar sesión">Iniciar sesión</button>
+        <div class="error-message" role="alert" aria-live="assertive"></div>
       </form>
     
     `;
